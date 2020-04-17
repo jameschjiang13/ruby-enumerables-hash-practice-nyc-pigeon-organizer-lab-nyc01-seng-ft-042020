@@ -40,4 +40,4 @@ binding.pry
     end
     counter_gender += 1
   end
-end
+=end
