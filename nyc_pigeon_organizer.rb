@@ -6,13 +6,14 @@ def nyc_pigeon_organizer(data)
   counter = 0
   binding.pry
   while counter < name_array.length do
-    pigeon_list{
+    new_member = {
       :name_array[counter] => {
         :color =>[],
         :gender =>[],
         :lives =>[]
       }
     }
+    pigeon_list.merge!(new_member)
     counter += 1
   end
 end
