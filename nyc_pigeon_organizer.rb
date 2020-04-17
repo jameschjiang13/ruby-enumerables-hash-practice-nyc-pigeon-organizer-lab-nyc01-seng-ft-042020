@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
     pigeon_list.merge!(new_member)
     counter += 1
   end
+  binding.pry
 
   counter_color = 0
   while counter_color < data[:color].length do
@@ -23,7 +24,6 @@ def nyc_pigeon_organizer(data)
     end
     counter_color += 1
   end
-binding.pry
 
 =begin
   counter_gender = 0
