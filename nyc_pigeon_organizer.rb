@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   binding.pry
   while counter < name_array.length do
     pigeon_list{
-        :name_array[counter] => {
+        #:name_array[counter] => {
         :color =>[],
         :gender =>[],
         :lives =>[]
