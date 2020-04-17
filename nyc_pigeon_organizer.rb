@@ -14,4 +14,20 @@ def nyc_pigeon_organizer(data)
     }
     counter += 1
   end
+
+  counter_color = 0
+  while counter_color < 4 do
+    if pigeon_data[:color].values[counter_color].include? "name_array[counter]"
+      pigeon_list[name_array[counter]][color] << pigeon_data[:color].keys[counter_color]
+    end
+    counter_color += 1
+  end
+
+  counter_gender = 0
+  while counter_gender < 2 do
+    if pigeon_data[:gender].values[counter_gender].include? "name_array[counter]"
+      pigeon_list[name_array[counter]][gender] << pigeon_data[:gender].keys[counter_gender]
+    end
+    counter_gender += 1
+  end
 end
