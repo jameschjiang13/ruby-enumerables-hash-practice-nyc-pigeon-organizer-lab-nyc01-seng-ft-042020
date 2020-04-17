@@ -16,11 +16,11 @@ def nyc_pigeon_organizer(data)
     counter += 1
   end
 
-
+  counter = 0
   counter_color = 0
   while counter_color < data[:color].length do
     binding.pry
-    if pigeon_data[:color].values[counter_color].include? "name_array[counter]"
+    if data[:color].values[counter_color].include? "name_array[counter]"
       pigeon_list[name_array[counter]][color] << pigeon_data[:color].keys[counter_color]
     end
     counter_color += 1
