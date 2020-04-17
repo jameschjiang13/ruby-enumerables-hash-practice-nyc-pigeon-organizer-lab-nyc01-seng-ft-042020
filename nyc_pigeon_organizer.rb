@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   counter = 0
   while counter < name_array.length do
-    binding.pry
     pigeon_list{
       :name_array[counter] => {
         :color =>[],
@@ -15,5 +14,4 @@ def nyc_pigeon_organizer(data)
     }
     counter += 1
   end
-  binding.pry
 end
