@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
     counter += 1
   end
 end
-
+=begin
 pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
