@@ -23,6 +23,7 @@ def nyc_pigeon_organizer(data)
       pigeon_list[name_array[counter]][color] << data[:color].keys[counter_color]
     end
     counter_color += 1
+    binding.pry
   end
 =begin
   counter_gender = 0
