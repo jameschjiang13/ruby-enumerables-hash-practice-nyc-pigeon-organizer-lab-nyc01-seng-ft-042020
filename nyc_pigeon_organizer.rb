@@ -4,7 +4,6 @@ def nyc_pigeon_organizer(data)
   name_array = data[:gender][:male].concat(data[:gender][:female])
   pigeon_list = {}
   counter = 0
-  binding.pry
   while counter < name_array.length do
     new_member = {
       :name_array[counter] => {
@@ -15,6 +14,7 @@ def nyc_pigeon_organizer(data)
     }
     pigeon_list.merge!(new_member)
     counter += 1
+    binding.pry
   end
 end
 =begin
