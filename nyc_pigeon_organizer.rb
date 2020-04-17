@@ -24,6 +24,7 @@ def nyc_pigeon_organizer(data)
     counter_color += 1
   end
 binding.pry
+
 =begin
   counter_gender = 0
   while counter_gender < pigeon_data[:gender].length do
