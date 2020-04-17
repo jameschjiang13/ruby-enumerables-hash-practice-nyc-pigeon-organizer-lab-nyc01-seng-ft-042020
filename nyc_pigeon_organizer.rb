@@ -13,9 +13,9 @@ def nyc_pigeon_organizer(data)
         :lives =>[]
       }
     }
-    binding.pry
     counter += 1
   end
+end
 
 
   counter_color = 0
