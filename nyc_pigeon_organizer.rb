@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   counter = 0
   while counter < name_array.length do
     new_member = {
-      "name_array[counter]" => {
+      "#{name_array[counter]}" => {
         :color =>[],
         :gender =>[],
         :lives =>[]
