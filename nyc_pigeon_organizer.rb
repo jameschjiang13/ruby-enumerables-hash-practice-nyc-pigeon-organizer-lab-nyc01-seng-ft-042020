@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   name_array = data[:gender][:male].concat(data[:gender][:female])
   pigeon_list = {}
   counter = 0
+  binding.pry
   while counter < name_array.length do
     pigeon_list{
       :name_array[counter] => {
