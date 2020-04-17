@@ -14,8 +14,8 @@ def nyc_pigeon_organizer(data)
     }
     pigeon_list.merge!(new_member)
     counter += 1
-    binding.pry
   end
+binding.pry
 end
 =begin
 pigeon_data = {
